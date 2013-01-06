@@ -1,3 +1,7 @@
+# ScalaIDE files
+.worksheet/
+*.sc
+
 # Eclipse files
 .metadata/
 .classpath
