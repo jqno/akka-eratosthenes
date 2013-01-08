@@ -41,12 +41,18 @@
 			<artifactId>boite</artifactId>
 			<version>${boite.version}</version>
 		</dependency>
-
-		<!-- Test dependencies -->
 		<dependency>
 			<groupId>com.typesafe.akka</groupId>
 			<artifactId>akka-actor</artifactId>
 			<version>${akka.version}</version>
+		</dependency>
+
+		<!-- Test dependencies -->
+		<dependency>
+			<groupId>com.typesafe.akka</groupId>
+			<artifactId>akka-testkit</artifactId>
+			<version>${akka.version}</version>
+			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
